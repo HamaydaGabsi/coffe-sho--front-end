@@ -1,0 +1,19 @@
+.tables-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 600px) {
+  .tables-area {
+    max-width: 90%;
+  }
+}

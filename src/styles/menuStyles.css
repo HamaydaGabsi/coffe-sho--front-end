@@ -1,0 +1,107 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.menu-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-item-details {
+  flex-grow: 1;
+  font-size: 18px;
+  color: #555;
+}
+
+.menu-item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.menu-quantity-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: #555;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.menu-total {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-total-label {
+  font-size: 18px;
+  color: #555;
+}
+
+.menu-total-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.menu-submit-button,
+.menu-reset-button,
+.menu-go-back-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.menu-submit-button {
+  background-color: #67b246;
+}
+
+.menu-reset-button {
+  background-color: #e67e22;
+}
+
+.menu-go-back-button {
+  background-color: #3498db;
+}

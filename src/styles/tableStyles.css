@@ -1,0 +1,33 @@
+.table {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.empty {
+  background-color: #6abf69;
+}
+
+.waiting {
+  background-color: #f7d154;
+}
+
+.served {
+  background-color: #f56a6a;
+}
+
+.default {
+  background-color: #d0d0d0;
+}
+
+.table:hover {
+  transform: scale(1.1);
+}
